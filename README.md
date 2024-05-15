@@ -1,37 +1,51 @@
-# TypeScript Example
+# Lista de Tarefas
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+Este é um aplicativo simples de lista de tarefas desenvolvido em TypeScript.
 
-```sh
-npx create-react-native-app -t with-typescript
-```
+## Funcionalidades
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Excluir tarefas
+- Visualizar lista de tarefas pendentes e concluídas
 
-## 🚀 How to use
+## Pré-requisitos
 
-#### Creating a new project
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+## Como instalar
 
-### Adding TypeScript to existing projects
+1. Clone este repositório:
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
 
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
+2. Navegue até o diretório do projeto:
 
-## 📝 Notes
 
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
-"# MBCP2" 
+3. Instale as dependências:
+
+
+## Como executar
+
+Execute o seguinte comando no terminal:
+
+
+Isso iniciará o aplicativo em modo de desenvolvimento. Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no seu navegador.
+
+## Tecnologias utilizadas
+
+- TypeScript
+- React
+- CSS (ou utilize o framework de sua preferência)
+
+## Estrutura do Projeto
+
+Aqui está a estrutura de arquivos principal do projeto:
+
+
+## Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou reportar problemas.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
